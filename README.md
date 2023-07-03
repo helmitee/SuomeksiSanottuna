@@ -18,7 +18,7 @@ An interactive HTML, CSS, and JavaScript project promoting the Finnish language.
 <p>Instagram reels video:</p>
 <video src=""></video>
 <p>Slides:</p>
-<a>src="https://github.com/helmitee/SuomeksiSanottuna/finglish.pptx" </a>
+<a src="https://github.com/helmitee/SuomeksiSanottuna/finglish.pptx"> </a>
 <br />
 
 
