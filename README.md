@@ -9,7 +9,7 @@
 
 <h2>Languages and Utilities Used</h2>
 
-- <b>HTLM, CSS, Javascript</b> 
+- <b>HTML, CSS, Javascript</b> 
 - <b>Figma, Adobe Photoshop, Adobe Premiere Pro</b>
 
 
