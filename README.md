@@ -3,7 +3,7 @@
  ### [Suomeksi sanottuna](https://users.aalto.fi/~komulaa5/index.html)
 
 <h2>Description</h2>
-An interactive HTML, CSS, and JavaScript project promoting the Finnish language.
+An interactive HTML, CSS, and JavaScript project promoting the Finnish language. A group project of 4 students.
 <br />
 
 
