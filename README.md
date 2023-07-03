@@ -16,8 +16,7 @@
 <h2>Additional materials:</h2>
 
 <p>Instagram reels video:</p>
-<img src="https://i.imgur.com/62TgaWL.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
+<video src=""></video>
 <p>Slides:</p>
 <img src="https://i.imgur.com/62TgaWL.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
