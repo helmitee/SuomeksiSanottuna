@@ -1,4 +1,4 @@
-<h1>Suomeksi sanottuna - Campaing Page</h1>
+<h1>Suomeksi sanottuna - Campaign Page</h1>
 
  ### [Suomeksi sanottuna](https://users.aalto.fi/~komulaa5/index.html)
 
