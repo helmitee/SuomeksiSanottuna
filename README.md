@@ -18,7 +18,7 @@ An interactive HTML, CSS, and JavaScript project promoting the Finnish language.
 <p>Instagram reels video:</p>
 <video src=""></video>
 <p>Slides:</p>
-<a src="finglish.pptx">powerpoint slides</a>
+<a src="finglish.pptx">PowerPoint slides</a>
 <br />
 
 
