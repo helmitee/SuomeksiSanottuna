@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Finglish - Anglismit ympärillämme</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script defer src="app.js"></script>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@1&display=swap");
+      @import url("https://fonts.googleapis.com/css2?family=Hind+Guntur&display=swap");
+    </style>
+  </head>
+
+  <body>
+    <nav>
+      <div class="fixednav">
+        <button type="button" onclick="topFunction()" class="menuotsikko">
+          Suomeksi sanottuna.
+        </button>
+        <div class="menu">
+          <div class="menubuttons" id="dropdown-content">
+            <a class="menubutton" href="#scroll-target-1">ANGLISMEJA</a>
+            <a class="menubutton" href="#scroll-target-4">TÄRKEÄÄ</a>
+            <a class="menubutton" href="#scroll-target-5">LUE LISÄÄ</a>
+          </div>
+          <button
+            onclick="myFunction()"
+            class="dropbtn"
+            class="hamburgericon"
+          ></button>
+        </div>
+      </div>
+
+      <div class="mobilenav" class="dropdown">
+        <div id="myDropdown" class="dropdown-content">
+          <a class="dropwdown-text" href="#scroll-target-1">ANGLISMEJA</a>
+          <a class="dropwdown-text" href="#scroll-target-3">TÄRKEÄÄ</a>
+          <a class="dropwdown-text" href="#scroll-target-5">LUE LISÄÄ</a>
+        </div>
+      </div>
+    </nav>
+
+    <div class="otsikko">
+      <div class="otsikkoteksti">
+        <p>
+          Suomeksi <br />
+          sanottuna.
+        </p>
+      </div>
+    </div>
+
+    <div class="os__wrapper">
+      <div class="os__text-container fade-text-container">
+        <p class="fade">
+          <span class="fade-item" id="fade1"
+            >Suomen kieltä käyttämällä pidämme kielellisen kulttuurimme elossa.
+          </span>
+          <span class="fade-item" id="fade2"
+            >Ylimääräiset anglismit ja finglish köyhdyttävät kielen
+            ilmaisuvoimaa ja yksipuolistavat käyttäjiensä sanavarastoa.</span
+          >
+          <span class="fade-item" id="fade3"
+            >Haluamme herättää keskustelua siitä, millaisissa tilanteissa
+            finglishin ja anglismien käyttö ei välttämättä tuo keskusteluun
+            mitään lisäarvoa.
+          </span>
+          <span class="fade-item" id="fade4"
+            >Millaista kieltä kohtaamme arjessamme? Ja mikä merkitys sillä
+            on?</span
+          >
+        </p>
+      </div>
+    </div>
+
+    <div class="osa">
+      <div class="scroll-target" id="scroll-target-1"></div>
+      <div class="scroll-target" id="scroll-target-2"></div>
+      <div class="text-container">
+        <h1>ANGLISMIT YMPÄRILLÄMME</h1>
+        <p class="anglismiteksti">
+          Anglismit ja englannin sekoittaminen suomen kieleen ovat ilmiöinä
+          vakiintuneet osaksi puhettamme ja katukuvaamme. Mutta tuoko englannin
+          sekoittaminen automaattisesti aina lisäarvoa keskusteluun?
+          <br />
+          Vie hiiresi kuvien päälle nähdäksesi vaihtoehtoja anglismeille
+          ympärillämme!
+        </p>
+        <div class="slideshow-container">
+          <!-- Full-width images with number and caption text -->
+          <div class="mySlides fader">
+            <div class="numbertext">1 / 8</div>
+            <img id="fazer" src="Pictures/Fazer_finglish.png" class="pic1" />
+          </div>
+
+          <div class="mySlides fader">
+            <div class="numbertext">2 / 8</div>
+            <img
+              id="lemonade"
+              src="Pictures/Lemonade_finglish.png"
+              class="pic1"
+            />
+          </div>
+
+          <div class="mySlides fader">
+            <div class="numbertext">3 / 8</div>
+            <img
+              id="crumble"
+              src="Pictures/Crumble_finglish.png"
+              class="pic1"
+            />
+          </div>
+
+          <div class="mySlides fader">
+            <div class="numbertext">4 / 8</div>
+            <img id="tripla" src="Pictures/Tripla_finglish.png" class="pic1" />
+          </div>
+
+          <div class="mySlides fader">
+            <div class="numbertext">5 / 8</div>
+            <img id="fanta" src="Pictures/Fanta_finglish.png" class="pic1" />
+          </div>
+
+          <div class="mySlides fader">
+            <div class="numbertext">6 / 8</div>
+            <img id="bakery" src="Pictures/Bakery_finglish.png" class="pic1" />
+          </div>
+
+          <div class="mySlides fader">
+            <div class="numbertext">7 / 8</div>
+            <img id="ruka" src="Pictures/Ruka_finglish.png" class="pic1" />
+          </div>
+
+          <div class="mySlides fader">
+            <div class="numbertext">8 / 8</div>
+            <img
+              id="safespace"
+              src="Pictures/SafeSpace_finglish 2.png"
+              class="pic1"
+            />
+          </div>
+
+          <!-- Next and previous buttons -->
+          <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+          <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+
+        <!-- The dots/circles -->
+        <div class="dots">
+          <span class="dot" onclick="currentSlide(1)"></span>
+          <span class="dot" onclick="currentSlide(2)"></span>
+          <span class="dot" onclick="currentSlide(3)"></span>
+          <span class="dot" onclick="currentSlide(4)"></span>
+          <span class="dot" onclick="currentSlide(5)"></span>
+          <span class="dot" onclick="currentSlide(6)"></span>
+          <span class="dot" onclick="currentSlide(7)"></span>
+          <span class="dot" onclick="currentSlide(8)"></span>
+        </div>
+      </div>
+    </div>
+
+    <div class="osa">
+      <div class="scroll-target" id="scroll-target-3"></div>
+      <div class="scroll-target" id="scroll-target-4"></div>
+
+
+      <div class="text-container" id="miksitarkeaa">
+        <h1>MIKSI SUOMEN KIELI ON TÄRKEÄÄ?</h1>
+        <p class="palloteksti">Napauta palloja ja lue lisää!</p>
+        <div class="ball-container">
+          <img class="kulttuurikuvat"src="./Pictures/Kulttuuri.png" alt="Kulttuuri">
+          <img class="identiteettikuvat"src="./Pictures/identiteetti1.png" alt="Identiteetti">
+          <img class="vuorovaikutuskuvat"src="./Pictures/vuorovaikutus1.png" alt="Vuorovaikutus">
+        </div>
+      </div>
+    </div>
+
+    <div class="os__wrapper">
+      <div class="os__text-container fade-text-container">
+        <p class="fade">
+          <span class="fade-item" id="fade5"
+            >Suomen kieli on rikas ja kaunis ilmaisuväline. Sen monipuolinen
+            käyttö avaa lukuisia mahdollisuuksia ilmaista itseään vakuuttavasti
+            sekä vahvistaa omaa kulttuuri-identiteettiään.
+          </span>
+          <span class="fade-item" id="fade6">
+            Julkinen keskustelu, kuten yritysten viestintä ja markkinointi,
+            asettavat raamit sille, miten me käytämme kieltä tässä maassa.
+          </span>
+          <span class="fade-item" id="fade7">
+            Tällä hetkellä tämä keskustelu on menossa yhä välinpitämättömämpään
+            suuntaan, kun englantia sekoitetaan paikkoihin, joissa se ei tuo
+            keskusteluun mitään lisäarvoa.
+          </span>
+          <span class="fade-item" id="fade8">
+            Siksi olisi tärkeää, että näissä keskusteluissa huomioitaisiin
+            kielellisen identiteetin ja itsetunnon vahvistaminen.</span
+          >
+        </p>
+      </div>
+    </div>
+
+    <div class="luelisaa" id="scroll-target-5">
+      <h1 class="alaotsikko">LUE LISÄÄ</h1>
+      <div class="linkit">
+        <a
+          href="https://trepo.tuni.fi/bitstream/handle/10024/78502/gradu02173.pdf?sequence=1&isAllowed=y"
+          class="linkki"
+          id="slide1"
+          >Ammattislangina finglish <br />Nina Palmgrenin Pro gradu -tutkielman
+          Tampereen yliopistota.</a
+        >
+        <a
+          href="https://www.kielikello.fi/-/karuselli-kieputin-ja-vekkula-linnanmaen-laitteiden-nimet"
+          class="linkki"
+          id="slide2"
+          >Linnanmäen laitteet <br />Mainio esimerkki suomen kielen paluusta!</a
+        >
+        <a
+          href="https://www.hs.fi/kuukausiliite/art-2000009202458.html?share=fc19d87b1957946c7037dd8f7c20dcee"
+          class="linkki"
+          id="slide3"
+          >HS kuukausiliite <br />Suomen kielen tulevaisuus huolestuttaa
+          kielitieteijiää.</a
+        >
+        <a
+          href="https://www.ts.fi/lukijoilta/4503772"
+          class="linkki"
+          id="slide4"
+          >Lukijan kolumni: Suomen kieli uhattuna <br />Turun Sanomien lukijan
+          ajatuksia.</a
+        >
+      </div>
+    </div>
+    <div class="pohja">
+      <a class="uudellesivulle" href="comment.html">Jätä kommentti!</a>
+    </div>
+  </body>
+</html>
