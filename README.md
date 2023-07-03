@@ -13,7 +13,7 @@ An interactive HTML, CSS, and JavaScript project promoting the Finnish language.
 - <b>Figma, Adobe Photoshop, Adobe Premiere Pro</b>
 
 
-<h2>Additional materials:</h2>
+<!--<h2>Additional materials:</h2>
 
 <p>Instagram reels video:</p>
 <video src=""></video>
